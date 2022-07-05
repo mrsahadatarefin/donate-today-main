@@ -1,5 +1,42 @@
 body{
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
+
+}
+h1{
+    font-size: 50px;
     
+}
+.flexible-container{
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 800px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+padding-top: 10%;
+}
+p{
+    font-size: 20px;
+}
+.button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.582);
+    padding: 10px 15px ;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+}
+ a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    box-shadow:10px 10px 40px rgb(112, 111, 111);
+    
+    
+}
+#Lets-Help{
+    color: rgb(255, 44, 44);
 }
