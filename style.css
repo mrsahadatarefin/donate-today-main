@@ -1,42 +1,83 @@
-body{
+body {
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
 
 }
-h1{
+
+h1 {
     font-size: 50px;
-    
+
 }
-.flexible-container{
+
+.flexible-container {
     background-image: url(images/donation6.jpg);
     background-repeat: no-repeat;
     background-position: cover;
     height: 800px;
     color: rgb(255, 255, 255);
     text-align: center;
-padding-top: 10%;
+    padding-top: 10%;
 }
-p{
+
+p {
     font-size: 20px;
 }
-.button{
+
+.button {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     background-color: rgba(255, 0, 0, 0.582);
-    padding: 10px 15px ;
+    padding: 20px 20px;
     border: 2px solid white;
-    border-radius: 25px;
-    
+    border-radius: 8px;
+
+
 }
- a:hover{
+
+a:hover {
     color: rgb(255, 255, 255);
     background-color: black;
-    box-shadow:10px 10px 40px rgb(112, 111, 111);
+    box-shadow: 10px 10px 40px rgb(112, 111, 111);
+
+}
+
+#Lets-Help {
+    color: rgb(255, 44, 44);
+}
+
+.Donate-Today {
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 2%;
+
+
+}
+.donate-box{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex
     
+    
+    
+   
+
+}
+.donate-taka{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
     
 }
-#Lets-Help{
-    color: rgb(255, 44, 44);
+#donate-taka2{
+    color: crimson;
+    background-color: rgba(250, 34, 77, 0.541);
+    border: 1px solid rgb(95, 32, 38);
+    border-radius: 5px;
 }
