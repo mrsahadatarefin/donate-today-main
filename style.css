@@ -100,7 +100,7 @@ a:hover {
     padding-left: 10%;
     padding-right: 10%;
     height: 30%;
-
+   
 
 }
 
@@ -109,6 +109,7 @@ a:hover {
     margin-right: 10px;
     padding: 30px 15px;
     border-radius: 20px;
+    width: 33%;
 
     background-color: rgb(238, 206, 206);
 
@@ -119,6 +120,7 @@ a:hover {
     margin-right: 10px;
     padding: 30px 15px;
     border-radius: 20px;
+    width: 33%;
 
     background-color: rgb(177, 225, 247);
 }
@@ -128,6 +130,7 @@ a:hover {
     margin-right: 10px;
     padding: 30px 15px;
     border-radius: 20px;
+    width: 33%;
 
     background-color: rgb(229, 250, 201);
 }
