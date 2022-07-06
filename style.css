@@ -152,22 +152,45 @@ a:hover {
 
 
 
-.email-box {
+.email {
     display: flexbox;
-    background-color: rgb(250, 179, 194);
-    
+
+    padding-left: 10%;
+    padding-right: 10%;
     height: 200px;
-    width: 100%;
+
+    background-color: rgb(250, 179, 194);
     margin-left: 20%;
     margin-right: 20%;
+
+
 }
-footer{
+
+input {
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    border: none;
+
+}
+
+#submit {
+    background-color: rgb(255, 103, 103);
+
+}
+
+footer {
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgb(0, 0, 0);
     height: 100px;
 }
-samp{
+
+samp {
     font-size: 30px;
     color: rgb(248, 62, 99);
 }
