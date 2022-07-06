@@ -24,14 +24,16 @@ p {
 }
 
 .button {
+    background-color: rgba(255, 0, 0, 0.582);
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
-    background-color: rgba(255, 0, 0, 0.582);
+    display: inline-block;
     padding: 20px 20px;
     border: 2px solid white;
     border-radius: 8px;
+    margin-top: 20px;
 
 
 }
@@ -51,20 +53,18 @@ a:hover {
     text-align: center;
     margin-top: 5%;
     padding-top: 2%;
+    font-size: 30px;
 
 
 }
-.donate-box{
+
+.donate-box {
     margin-right: 20%;
     margin-left: 20%;
     display: flex
-    
-    
-    
-   
-
 }
-.donate-taka{
+
+.donate-taka {
     background-color: aliceblue;
     padding: 30px;
     margin: 5px;
@@ -73,11 +73,101 @@ a:hover {
     font-size: 30px;
     font-weight: 700;
 
-    
+
 }
-#donate-taka2{
+
+#donate-taka2 {
     color: crimson;
     background-color: rgba(250, 34, 77, 0.541);
     border: 1px solid rgb(95, 32, 38);
     border-radius: 5px;
+}
+
+.donate-box2 {
+    text-align: center;
+
+}
+
+.donate-now {
+    padding: 5%;
+    margin-top: 20px;
+    color: rgb(131, 131, 131);
+}
+
+
+.box3 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30%;
+
+
+}
+
+#box1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px 15px;
+    border-radius: 20px;
+
+    background-color: rgb(238, 206, 206);
+
+}
+
+#box2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px 15px;
+    border-radius: 20px;
+
+    background-color: rgb(177, 225, 247);
+}
+
+#box3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px 15px;
+    border-radius: 20px;
+
+    background-color: rgb(229, 250, 201);
+}
+
+.your-donation {
+    display: flex;
+
+}
+
+.half-widht {
+    width: 50%;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.Get-My-Updates {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.email-box {
+    display: flexbox;
+    background-color: rgb(250, 179, 194);
+    
+    height: 200px;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+samp{
+    font-size: 30px;
+    color: rgb(248, 62, 99);
 }
